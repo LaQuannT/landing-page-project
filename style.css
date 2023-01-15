@@ -37,12 +37,15 @@ a {
 
 h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #f9faf8
 }
 
-#text {
+.text {
     font-size: 18px;
+}
+
+.long {
     color: #e5e7eb;
 }
 
@@ -68,4 +71,33 @@ button {
     max-width: 50%;
     font-size: 36px;
     font-style: italic;
+}
+
+.info {
+    flex-direction: row;
+}
+
+.boxes {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    max-width: 25%;
+}
+
+.pic {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 6px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937
 }
