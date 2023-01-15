@@ -25,3 +25,35 @@ a {
     color: #e5e7eb;
     text-decoration: none;
 }
+
+.content {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    gap: 13px;
+    padding: 48px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8
+}
+
+#text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signUp {
+    max-width: 40%;
+}
+
+button {
+    border-radius: 6px;
+    padding: 5px 16px;
+    background: #3882f6;
+    color: #e5e7eb;
+    border-width: 0;
+}
