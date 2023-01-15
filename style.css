@@ -57,3 +57,15 @@ button {
     color: #e5e7eb;
     border-width: 0;
 }
+
+.quotes {
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+}
+
+#inspo {
+    max-width: 50%;
+    font-size: 36px;
+    font-style: italic;
+}
