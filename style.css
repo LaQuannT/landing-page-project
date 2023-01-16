@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: monospace;
 }
 
 .container {
@@ -69,6 +70,7 @@ button {
     background-color: #e5e7eb;
     align-items: center;
     justify-content: center;
+    padding: 46px;
 }
 
 #inspo {
@@ -79,6 +81,7 @@ button {
 
 .info {
     flex-direction: row;
+    padding: 46px;
 }
 
 .boxes {
@@ -107,21 +110,38 @@ h2 {
     color: #1f2937
 }
 
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 46px;
+}
+
 .bluebox {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #3882f6;
     border-radius: 6px;
-    margin: 46px;
+    width: 60%;
     align-items: center;
+    padding: 13px;
 }
 
 #actbutton {
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
     border-color: #e5e7eb;
 }
 
+#note1 {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+#note2 {
+    margin-top: 0;
+    font-size: 16px;
+}
 .footer {
     text-align: center;
     background-color: #1f2937;
