@@ -22,7 +22,7 @@ body {
 
 ul {
     list-style-type: none;
-    gap: 13px;
+    gap: 25px;
     font-size: 18px;
 }
 
@@ -77,6 +77,10 @@ button {
     max-width: 50%;
     font-size: 36px;
     font-style: italic;
+}
+
+#author {
+    font-weight: bold;
 }
 
 .info {
