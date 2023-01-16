@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -116,4 +120,10 @@ h2 {
     border-width: 1px;
     border-style: solid;
     border-color: #e5e7eb;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
