@@ -98,13 +98,21 @@ button {
 
 .box {
     max-width: 25%;
+    text-align: center;
 }
 
 .pic {
-    border-width: 1px;
+    width: 150px;
+    height: 150px;  
+    border-width: 2px;
     border-style: solid;
     border-color: #3882f6;
-    border-radius: 6px;
+    border-radius: 8px;
+}
+
+.desc {
+    font-size: small;
+    text-align: center;
 }
 
 h2 {
@@ -155,5 +163,5 @@ h2 {
 #largeimg {
     width: 450px;
     height: auto;
-    border-radius: 6px;
+    border-radius: 8px;
 }
