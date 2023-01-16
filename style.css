@@ -151,3 +151,9 @@ h2 {
     background-color: #1f2937;
     color: #e5e7eb;
 }
+
+#largeimg {
+    width: 450px;
+    height: auto;
+    border-radius: 6px;
+}
